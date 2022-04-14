@@ -1,0 +1,69 @@
+calamares
+grub-theme-live-manjaro
+gsmartcontrol
+#manjaro-architect
+manjaro-live-skel
+manjaro-live-systemd
+mkinitcpio-nfs-utils
+nbd
+clonezilla
+virtualbox-guest-utils
+
+## Display manager
+sddm
+sddm-kcm
+
+
+## Plasma5
+bluedevil
+kde-gtk-config
+kdeplasma-addons
+kgamma5
+kinfocenter
+kmenuedit
+kscreen
+kscreenlocker
+ksshaskpass
+ksysguard
+kwallet-pam
+kwayland-integration
+kwin
+qt5-virtualkeyboard  # Virtual keyboard support for kwin-wayland
+kwrited
+milou
+plasma-desktop
+plasma-nm
+plasma-pa
+plasma-simplemenu
+#plasma-wayland-session # drop wayland support for now
+plasma-workspace
+>extra plasma-workspace-wallpapers
+powerdevil
+systemsettings
+plasma-browser-integration
+
+## Applications
+manjaro-hello
+
+## Xorg Input Drivers
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-libinput
+xf86-input-void
+
+## Xorg Server and Graphics
+>multilib lib32-libva-intel-driver
+>multilib lib32-libva-mesa-driver
+>multilib lib32-libva-vdpau-driver
+libva-intel-driver
+libva-mesa-driver
+libva-vdpau-driver
+mesa-demos
+>multilib lib32-mesa-demos
+numlockx
+xdg-user-dirs
+xorg-server
+xorg-twm
+xorg-xinit
+xorg-xkill
+xorg-mkfontscale
